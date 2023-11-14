@@ -1,9 +1,21 @@
 :root{
     --star: #74bef0;
+};
+
+.light{
+    
     --beast: #d46262;
     --mineral: #b97f64d7;
     --plant: #74e490;
     --spirit: #c361cc;
     --intellegence:#f1cf6e;
+}
 
-};
+.dark{
+    --star: #4c7d9e;
+    --beast: #994747;
+    --mineral: #8a5e4ad7;
+    --plant: #4b915d;
+    --spirit: #7a3d80;
+    --intellegence:#b69b51;
+}
