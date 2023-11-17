@@ -1,13 +1,14 @@
 :root{
     --star: #74bef0;
-};
-
-.light{
     --beast: #d46262;
     --mineral: #b97f64d7;
     --plant: #74e490;
     --spirit: #c361cc;
     --intellegence:#f1cf6e;
+};
+
+.light{
+    --star: #74bef0;
 }
 
 .dark{

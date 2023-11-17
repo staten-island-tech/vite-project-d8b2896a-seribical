@@ -7,3 +7,19 @@ body{
 .flexbox{
   display: flex;
 }
+
+#beast{
+  background-color: var(--beast);
+}
+
+.beast{
+  background-color:  var(--beast);
+}
+
+#spirit{
+  background-color: var(--spirit);
+}
+
+.Spirit{
+  width: 30%;
+}

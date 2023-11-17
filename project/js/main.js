@@ -1,13 +1,43 @@
 import '../styles/style.css'
-import {DOMSelectors} from './DOMSelectors'
 import {array} from './array'
-import viteLogo from '../public/vite.svg'
-import javascriptLogo from '../javascript.svg'
 
-array.forEach((i)=>{
-    const card=document.createElement('div');
-    card.innerHTML=`
-    <p>${i.character}<p>
-    `
-})
-console.log(array);
+document.querySelector('#app').innerHTML=`
+<p>g</p>
+<button id='beast'>h</button>
+<button id='spirit'>h</button>
+<div class='flexbox'>
+
+</div>
+`
+
+const DOMSelectors={
+    box: document.querySelector('.flexbox'),
+    beast: document.querySelector('#beast'),
+    spirit:document.querySelector('#spirit'),
+};
+ 
+DOMSelectors.beast.addEventListener('click', function(event){
+    event.preventDefault();
+    let inner = "";
+    let x = array.filter((i)=>i.afflatus==='Beast');
+    x.forEach((i)=>inner+=`
+    <div class='${i.afflatus}'>
+    <p>${i.character}</p>
+    </div>
+    `)
+    DOMSelectors.box.innerHTML=inner
+});
+
+DOMSelectors.spirit.addEventListener('click', function(event){
+    event.preventDefault();
+    let inner = "";
+    let x = array.filter((i)=>i.afflatus==='Spirit');
+    x.forEach((i)=>inner+=`
+    <div class='${i.afflatus}'>
+    <p>${i.character}</p>
+    <img src='${i.splash}'>
+    </div>
+    `)
+    DOMSelectors.box.innerHTML=inner
+});
+
