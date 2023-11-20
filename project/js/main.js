@@ -23,6 +23,7 @@ DOMSelectors.beast.addEventListener('click', function(event){
     x.forEach((i)=>inner+=`
     <div class='${i.afflatus}'>
     <p>${i.character}</p>
+    <img class='img' src='${i.splash}'>
     </div>
     `)
     DOMSelectors.box.innerHTML=inner

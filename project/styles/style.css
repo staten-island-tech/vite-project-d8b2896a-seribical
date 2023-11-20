@@ -6,14 +6,24 @@ body{
 
 .flexbox{
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #beast{
   background-color: var(--beast);
 }
 
-.beast{
+.Beast{
   background-color:  var(--beast);
+  width: 12%;
+  height: 500px;
+  margin: 25px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
 
 #spirit{
@@ -21,5 +31,33 @@ body{
 }
 
 .Spirit{
-  width: 30%;
+  background-color: var(--spirit);
+}
+
+#star{
+  background-color: var(--star);
+}
+
+.star{
+  background-color: var(--star);
+}
+
+#plant{
+  background-color: var(--plant);
+}
+
+.plant{
+  background-color: var(--plant);
+}
+
+#intelligence{
+  background-color: var(--intelligence);
+}
+
+.intelligence{
+  background-color: var(--intelligence);
+}
+
+.img{
+  width: 300%;
 }
