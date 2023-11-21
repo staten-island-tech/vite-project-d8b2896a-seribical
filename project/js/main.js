@@ -15,30 +15,23 @@ const DOMSelectors={
     beast: document.querySelector('#beast'),
     spirit:document.querySelector('#spirit'),
 };
- 
-DOMSelectors.beast.addEventListener('click', function(event){
-    event.preventDefault();
-    let inner = "";
-    let x = array.filter((i)=>i.afflatus==='Beast');
-    x.forEach((i)=>inner+=`
-    <div class='${i.afflatus}'>
-    <p>${i.character}</p>
-    <img class='img' src='${i.splash}'>
-    </div>
-    `)
-    DOMSelectors.box.innerHTML=inner
-});
 
-DOMSelectors.spirit.addEventListener('click', function(event){
-    event.preventDefault();
-    let inner = "";
-    let x = array.filter((i)=>i.afflatus==='Spirit');
-    x.forEach((i)=>inner+=`
-    <div class='${i.afflatus}'>
-    <p>${i.character}</p>
-    <img src='${i.splash}'>
-    </div>
-    `)
-    DOMSelectors.box.innerHTML=inner
-});
+function filter(afflatus,button){
+    button.addEventListener('click', function(event){
+        event.preventDefault();
+        let inner = "";
+        let x = array.filter((i)=>i.afflatus===`${afflatus}`);
+        x.forEach((i)=>inner+=`
+        <div class='${i.afflatus}'>
+        <p>${i.character}</p>
+        <img class='img' src='${i.splash}'>
+        </div>
+        `)
+        DOMSelectors.box.innerHTML=inner
+    });
+}
+
+filter("Beast",DOMSelectors.beast)
+
+
 

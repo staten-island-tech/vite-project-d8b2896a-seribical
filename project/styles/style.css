@@ -12,18 +12,23 @@ body{
 
 #beast{
   background-color: var(--beast);
+  width: 100px;
+  height: 30px;
+  transition: all 1.25s;
+}
+
+#beast:hover{
+  transform: translateY(-10); 
 }
 
 .Beast{
-  background-color:  var(--beast);
-  width: 12%;
+  width: 100%;
   height: 500px;
-  margin: 25px;
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow: hidden;
+  transition: background-color 0.75s;
+}
+
+.Beast:hover{
+  background-color: var(--beast);
 }
 
 #spirit{
@@ -31,7 +36,8 @@ body{
 }
 
 .Spirit{
-  background-color: var(--spirit);
+  background-color:  var(--spirit);
+  
 }
 
 #star{
@@ -59,5 +65,27 @@ body{
 }
 
 .img{
-  width: 300%;
+  width: 400px;
+  transform:translateX(-90px) ;
+  opacity: 75%;
+}
+
+.six{
+  background-color: var(--six);
+  width: 13%;
+  height: 500px;
+  margin-left: 30px;
+  margin-right: 30px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items:start;
+  overflow: hidden;
+  position: relative;
+  transition: all 1.25s;
+
+}
+
+.six:hover{
+  width: 27%;
 }
