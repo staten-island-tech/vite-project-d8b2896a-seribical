@@ -16,17 +16,24 @@ const DOMSelectors={
     spirit:document.querySelector('#spirit'),
 };
 
-function filter(afflatus,button){
+function filter(sort,button){
     button.addEventListener('click', function(event){
         event.preventDefault();
         let inner = "";
-        let x = array.filter((i)=>i.afflatus===`${afflatus}`);
+        let x = array.filter((i)=>i.afflatus===`${sort}`);
         x.forEach((i)=>inner+=`
-        <div class='${i.afflatus}'>
-        <p>${i.character}</p>
-        <img class='img' src='${i.splash}'>
-        </div>
-        `)
+            <div class='${i.rarity}'>
+                <div class='${i.afflatus}'>
+                    <div class='header'>
+                        <h2>${i.character}</h2>
+                    </div>
+                    <img class='img' src='${i.splash}'>
+                    <div class='footer'>
+                        <h3>${i.damage}</h3>
+                    </div>
+                </div>
+            </div>
+            `)
         DOMSelectors.box.innerHTML=inner
     });
 }

@@ -25,6 +25,7 @@ body{
   width: 100%;
   height: 500px;
   transition: background-color 0.75s;
+  position: relative;
 }
 
 .Beast:hover{
@@ -65,7 +66,7 @@ body{
 }
 
 .img{
-  width: 400px;
+  height: 75%;
   transform:translateX(-90px) ;
   opacity: 75%;
 }
@@ -82,10 +83,27 @@ body{
   align-items:start;
   overflow: hidden;
   position: relative;
-  transition: all 1.25s;
+  transition: all 0.9s;
 
 }
 
-.six:hover{
-  width: 27%;
+
+
+.header{
+  display: flex;
+  width: 100%;
+  align-items: start;
+  margin-left: 20px;
+  justify-content: start;
+  flex-direction: column;
+}
+
+.footer{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  padding-right:20px;
+}
+.footer h3{
+  text-align: center;
 }
