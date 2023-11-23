@@ -68,7 +68,6 @@ body{
 .img{
   height: 75%;
   transform:translateX(-90px) ;
-  opacity: 75%;
 }
 
 .six{
@@ -87,23 +86,34 @@ body{
 
 }
 
-
+.six:hover{
+  width: 27%;
+}
 
 .header{
   display: flex;
   width: 100%;
-  align-items: start;
-  margin-left: 20px;
-  justify-content: start;
+  text-align: end;
   flex-direction: column;
 }
 
 .footer{
   display: flex;
   width: 100%;
+  text-align: start;
   flex-direction: column;
-  padding-right:20px;
+  justify-content: center;
 }
-.footer h3{
-  text-align: center;
+
+div{
+  border: 1px solid black;
+}
+
+.right{
+  margin-right: 10%;
+}
+
+.left{
+  margin-left: 10%;
+  margin-bottom: 20%;
 }

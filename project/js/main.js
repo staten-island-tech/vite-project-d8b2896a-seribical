@@ -3,8 +3,7 @@ import {array} from './array'
 
 document.querySelector('#app').innerHTML=`
 <p>g</p>
-<button id='beast'>h</button>
-<button id='spirit'>h</button>
+<button id='beast'>Beast</button>
 <div class='flexbox'>
 
 </div>
@@ -25,20 +24,20 @@ function filter(sort,button){
             <div class='${i.rarity}'>
                 <div class='${i.afflatus}'>
                     <div class='header'>
-                        <h2>${i.character}</h2>
+                        <h2 class='right'>${i.character}</h2>
                     </div>
                     <img class='img' src='${i.splash}'>
                     <div class='footer'>
-                        <h3>${i.damage}</h3>
+                        <h3 class='left'>${i.damage}</h3>
                     </div>
                 </div>
             </div>
             `)
         DOMSelectors.box.innerHTML=inner
     });
-}
+};
 
-filter("Beast",DOMSelectors.beast)
+filter("Beast",DOMSelectors.beast);
 
 
 

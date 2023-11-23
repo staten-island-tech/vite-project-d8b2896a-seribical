@@ -1,5 +1,34 @@
 const array = [
     {
+        character:"37",
+        afflatus:"Star",
+        damage:"Mental",
+        rarity: "six",
+        number:"6",
+        spell1:"Triangulation",
+        spell1d:"1-target attack. Causes 140/210/350% Mental DMG, followed by an additional 40/60/100% Genesis DMG. Gains 1 stack of [Eureka].",
+        spell2:"Curve Mapping",
+        spell2d:"Mass Attack. Causes 70/105/175% Mental DMG to 2 enemies; additionally deals 40/60/100% Genesis DMG, and gives self a stack of [Sturdiness].",
+        ult:"Realm of Numbers and Geometry",
+        ultd:"Mass Buff. Gives all allies two stacks of [Numeral Perception]; Gains two stacks of [Enlightenment] and adds [Eureka] +2 to self.",
+        portrait:"https://www.prydwen.gg/static/12a9276bf3b49bb3cdde0543129d129f/60b4d/7_icon.webp",
+        splash:"https://www.prydwen.gg/static/4389e1262d7804f6fdb8920be1fcd89b/3cd29/64_full.webp"
+    },
+    {
+        character:"",
+        afflatus:"",
+        damage:"",
+        rarity: "",
+        spell1:"",
+        spell1d:"",
+        spell2:"",
+        spell2d:"",
+        ult:"",
+        ultd:"",
+        portrait:"",
+        splash:""
+    },
+    {
         character:"A Knight",
         afflatus:"Spirit",
         damage:"Reality",
@@ -68,6 +97,20 @@ const array = [
         ultd:"Mass attack. Deals 300% Reality DMG and inflicts 1 stack of [Weakness] on all enemies.",
         portrait:"https://www.prydwen.gg/static/191228ad7e866fba991582aaafdce40b/60b4d/5_icon.webp",
         splash:"https://www.prydwen.gg/static/6ceccd2ad47168bd903b41b162eb6ad9/3cd29/5_full.webp"
+    },
+    {
+        character:"",
+        afflatus:"",
+        damage:"",
+        rarity: "",
+        spell1:"",
+        spell1d:"",
+        spell2:"",
+        spell2d:"",
+        ult:"",
+        ultd:"",
+        portrait:"",
+        splash:""
     },
     {
         character:"Melania",
