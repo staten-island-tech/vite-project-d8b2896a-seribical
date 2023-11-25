@@ -14,8 +14,8 @@ const array = [
         ult:"Realm of Numbers and Geometry",
         ultd:"Mass Buff. Gives all allies two stacks of [Numeral Perception]; Gains two stacks of [Enlightenment] and adds [Eureka] +2 to self.",
         ulti:"https://www.prydwen.gg/static/2e7eb878c1268a89369fcbc853fdc73c/9b438/37_ult.webp",
-        portrait:"https://www.prydwen.gg/static/12a9276bf3b49bb3cdde0543129d129f/60b4d/7_icon.webp",
-        splash:"https://www.prydwen.gg/static/4389e1262d7804f6fdb8920be1fcd89b/3cd29/64_full.webp"
+        portrait:"https://www.prydwen.gg/static/a9df0a9f798cde750e47fe7b40c4cb61/60b4d/64_icon.webp",
+        splash:"https://www.prydwen.gg/static/c1657226cb79dfafb394a54a2c4d0e7b/25aca/306602.webp"
     },
     {
         character:"6",
@@ -33,7 +33,7 @@ const array = [
         ultd:"1-target attack. Deals 700% Mental DMG. If [Eureka] is at 6 or more stacks, consumes 6 stacks and increases this attack's damage by +75% for every [Stats Down], [Neg Status], or [Control] status on the target (stacks up to 4 times).",
         ulti:"https://www.prydwen.gg/static/b7b6c84a311f1938762b24bdc06c933d/9b438/30790131.webp",
         portrait:"https://www.prydwen.gg/static/c3b16c3397767b4737aa9bb4ff4ffafc/60b4d/65_icon.webp",
-        splash:"https://www.prydwen.gg/static/05c2fdc5b17a6ec437c21b57bbca5ba7/3cd29/65_full.webp"
+        splash:"https://www.prydwen.gg/static/a69b14fd33965277cbca482da4185f56/25aca/307902.webp"
     },
     {
         character:"A Knight",
@@ -51,7 +51,7 @@ const array = [
         ultd:"Mass attack. Deals 400% Reality DMG to all enemies. If any target is defeated, then inflicts 1 stack of [Rousing Morale] on all allies.",
         ulti:"https://www.prydwen.gg/static/c4bdb27bfb6d70b6e3a33b2169bb8f51/9b438/7_1.webp",
         portrait:"https://www.prydwen.gg/static/12a9276bf3b49bb3cdde0543129d129f/60b4d/7_icon.webp",
-        splash:"https://www.prydwen.gg/static/23917698ee50c39ce4f056f87f477db2/3cd29/7_full.webp"
+        splash:"https://www.prydwen.gg/static/2cd7c44e2c83ebb81b8dd9783f814fe3/26839/300702.webp"
     },
     {
         character:"aliEn T",
@@ -87,7 +87,7 @@ const array = [
         ultd:"Mass attack. Deals 400% Reality DMG to all enemies. The caster enters [Empower Incantation I] status for 2 rounds.",
         ulti:"https://www.prydwen.gg/static/3d6b4bcd55f59fad95da7e049b836e0b/9b438/anan1.webp",
         portrait:"https://www.prydwen.gg/static/0b86bc3c4710ab7fb76f3c30adfd1283/60b4d/0_icon.webp",
-        splash:"https://www.prydwen.gg/static/e7e861f02dea05e98c915de2e91191ba/3cd29/0_full.webp"
+        splash:"https://www.prydwen.gg/static/143b55f452d66b401b0a8dfd1246ca2c/032c0/303902.webp"
     },
     {
         character:"APPLe",
@@ -105,26 +105,9 @@ const array = [
         ultd:"Mass attack. Deals 300% Mental DMG to all enemies. HP +(the caster's ATK x100%) for the ally with the lowest HP percentage.",
         ulti:"https://www.prydwen.gg/static/18aef3bba63978ec4d3660f7b163c6ae/9b438/apple1.webp",
         portrait:"https://www.prydwen.gg/static/0b98cc2a98a7711123e8fa39ae258700/60b4d/30_icon.webp",
-        splash:"https://www.prydwen.gg/static/b29310e67a7ec7d34248ea76c4958d7b/3cd29/30_full.webp"
+        splash:"https://www.prydwen.gg/static/9d1ea86b680778bf2fc2286ee5939abe/4f73c/302802.webp"
     },
-    {
-        character:"Centurion",
-        afflatus:"Beast",
-        damage:"Reality",
-        rarity:"six",
-        number:"6",
-        spell1:"Victorious General",
-        spell1d:"1-target attack. Deals 180/270/450% Reality DMG plus (the caster's Moxie x8/12/20%) Reality DMG.",
-        spell1i:"https://www.prydwen.gg/static/59ed29f293826b5ac4f3bd5d9ab55a95/f0036/cent2.webp",
-        spell2:"Outdoor Superstar",
-        spell2d:"Mass attack. Deals 150/150/225% Reality DMG to 2 enemies. Moxie +0/1/2 to self.",
-        spell2i:"https://www.prydwen.gg/static/b89962ba8c18a0a972f6bd4aae9c4e17/f0036/cent3.webp",
-        ult:"Reality Show Premier",
-        ultd:"Mass attack. Deals 300% Reality DMG and inflicts 1 stack of [Weakness] on all enemies.",
-        ulti:"https://www.prydwen.gg/static/c468a40993bffe52024fea2f979042a6/9b438/cent1.webp",
-        portrait:"https://www.prydwen.gg/static/191228ad7e866fba991582aaafdce40b/60b4d/5_icon.webp",
-        splash:"https://www.prydwen.gg/static/6ceccd2ad47168bd903b41b162eb6ad9/3cd29/5_full.webp"
-    },
+    
     {
         character:"Baby Blue",
         afflatus:"Star",
@@ -141,7 +124,7 @@ const array = [
         ultd:"Mass attack. Deals 250% Mental DMG to all enemies. If the target is in [Stats down], [Neg Status], or [Control] statuses, inflicts [Nightmare] status for 1 round on the target.",
         ulti:"https://www.prydwen.gg/static/01155bfa2c09f2b25393daf50c6dd67d/9b438/bbb1.webp",
         portrait:"https://www.prydwen.gg/static/7e7d67396b8dc2368e6acde2f8d4ce2c/60b4d/14_icon.webp",
-        splash:"https://www.prydwen.gg/static/6e45ad98f7c5bff5176ede4b1062269f/3cd29/14_full.webp"
+        splash:"https://www.prydwen.gg/static/11ed9b5809dd177cbb3e963cdf08414e/6f350/301602.webp"
     },
     {
         character:"Balloon Party",
@@ -159,14 +142,86 @@ const array = [
         ultd:"Mass attack. Deals 250% Reality DMG to all enemies. Gives 1 [Balloon of Innocence] and 1 [Party Balloon] to all allies. HP +(Lost HP x10%) for the ally with the lowest HP percentage.",
         ulti:"https://www.prydwen.gg/static/b307114ac8957d4be5601f8360997ebc/9b438/balloon1.webp",
         portrait:"https://www.prydwen.gg/static/7c5aacbd1d7debf7b5e171ef5b8eb21d/60b4d/19_icon.webp",
-        splash:"https://www.prydwen.gg/static/c4e78d7f9a01e95c61c6f13aff1d9cd9/3cd29/19_full.webp"
+        splash:"https://www.prydwen.gg/static/f69e2a80e9531118e0bda094764fcf42/56674/302402.webp"
     },
     {
-        character:"",
-        afflatus:"",
-        damage:"",
-        rarity:"",
-        number:"",
+        character:"Bette",
+        afflatus:"Mineral",
+        damage:"Reality",
+        rarity:"three",
+        number:"3",
+        spell1:"Classic Shot",
+        spell1d:"1-target attack. Deals 160/240/300% Reality DMG. This attack enjoys Penetration Rate +30%.",
+        spell1i:"https://www.prydwen.gg/static/77313307ef83b094914bd9a3d7bbb784/f0036/bette2.webp",
+        spell2:"Important Part",
+        spell2d:"1-target buff. Reality DEF and Mental DEF +25/30/35% and DMG Taken -25/30/35% for the target for 2 rounds.",
+        spell2i:"https://www.prydwen.gg/static/1061d3d9876cb5159718d0205d21ac3c/f0036/bette3.webp",
+        ult:"Every Audition",
+        ultd:"https://www.prydwen.gg/static/a5c83a839f7182034eb5e5d18f6bc8db/9b438/bette1.webp",
+        ulti:"https://www.prydwen.gg/static/a5c83a839f7182034eb5e5d18f6bc8db/9b438/bette1.webp",
+        portrait:"https://www.prydwen.gg/static/c4196c4d2986c2ff56d7e8b8caf5a08a/60b4d/44_icon.webp",
+        splash:"https://www.prydwen.gg/static/842d735f2638ad38db57ec54588b96b8/3cd29/44_full.webp"
+    },
+    {
+        character:"Bkornblume",
+        afflatus:"Plant",
+        damage:"Reality",
+        rarity:"five",
+        number:"5",
+        spell1:"Watch Your Sleeves",
+        spell1d:"Mass attack. Deals 135/200/335% Reality DMG to 2 enemies. If the target is in [Stats Down], [Neg Status], or [Control] statuses, this attack deals 30/45/75% more Reality DMG.",
+        spell1i:"https://www.prydwen.gg/static/8be8850a9bf05dae6f98ab3279d33e40/f0036/bkorn2.webp",
+        spell2:"Prying Ear",
+        spell2d:"Mass debuff. All enemies suffer Reality DEF -15/20/25% and DMG Taken +15/20/25%. Lasts 2/2/3 rounds.",
+        spell2i:"https://www.prydwen.gg/static/f5fd111e637a7315307bca8ed4f9b8db/f0036/bkorn3.webp",
+        ult:"Uninvited Reviwer",
+        ultd:"1-target attack. Deals 550% Reality DMG and inflicts [Seal] for 2 rounds. If the target is immune to [Seal], Moxie -2 to the target instead.",
+        ulti:"https://www.prydwen.gg/static/87dcc178a984014caa8d325365a2f89d/9b438/bkorn1.webp",
+        portrait:"https://www.prydwen.gg/static/f5c8a1e76ffa90a6a3cc1628543264e7/60b4d/16_icon.webp",
+        splash:"https://www.prydwen.gg/static/930e6baa8bf11b439ad37bd1023b3b50/d6d17/302002.webp"
+    },
+    {
+        character:"Black Dwarf",
+        afflatus:"Mineral",
+        damage:"Mental",
+        rarity:"six",
+        number:"6",
+        spell1:"Enchanted Strike",
+        spell1d:"1-target attack. Deals 180/270/450% Mental DMG. Upon casting, gain 1/2/3 stacks of [Saturn]. [Saturn]: +6% Penetration Rate for each stack. [Planet]s are capped at 3.",
+        spell1i:"https://www.prydwen.gg/static/8ec922bede624d9acd986d2cf3b4efd0/f0036/Skill-30700111.webp",
+        spell2:"Mythical Meteors",
+        spell2d:"Mass attack. Deals 135/200/335% Mental DMG to 2 enemies. Upon casting, gain 1/2/3 stacks of [Mars]. [Mars]: +6% Leech Rate for each stack. [Planet]s are capped at 3",
+        spell2i:"https://www.prydwen.gg/static/a9986d341fe4adf9bacc697c6e40e519/f0036/Skill-30700121.webp",
+        ult:"Singular Perfection",
+        ultd:"1-target attack. Removes all [Planets]. Deals 600% Mental DMG. Gains 2 stacks of [Full-Moon]. [Full-Moon]: +6% skill power for each stack. [Planet]s are capped at 3.",
+        ulti:"https://www.prydwen.gg/static/1941e9d3f4bdb59372d0dd2034da567a/9b438/Skill-30700131.webp",
+        portrait:"https://www.prydwen.gg/static/c746ac1cf15c943191df0b3f0938dec9/60b4d/62_icon.webp",
+        splash:"https://www.prydwen.gg/static/fa5ace9f368cc2df575071e73e49e996/25aca/307002.webp"
+    },
+    {
+        character:"Blonney",
+        afflatus:"Star",
+        damage:"Reality",
+        rarity:"five",
+        number:"5",
+        spell1:"Laughing Rabbit",
+        spell1d:"1-target attack. Deals 160/240/400% Reality DMG. This attack's Crit Rate and Crit DMG is increased by 25%",
+        spell1i:"https://www.prydwen.gg/static/c90b1f6bde50b92b0a9c1a2b8aa2390a/f0036/30600111.webp",
+        spell2:"Chainsaw Thriller",
+        spell2d:"1-target attack. Deals 200/250/400% Reality DMG. Inflicts 0/1/1 stack of [Confusion] for 1 round",
+        spell2i:"https://www.prydwen.gg/static/17ae6e1659ff9c4ad7582442ca74337e/f0036/30600121.webp",
+        ult:"Pulp Fiction",
+        ultd:"Mass attack. Deals 250% Reality DMG to all enemies. This attack's Crit Rate is increased by 20%",
+        ulti:"https://www.prydwen.gg/static/e40605727731a1f0ff94fc40acd9bf97/9b438/30600131.webp",
+        portrait:"https://www.prydwen.gg/static/7f3b655f5feaf9ccf457e484faff2f8a/60b4d/57_icon.webp",
+        splash:"https://www.prydwen.gg/static/8172b8a60d4d1103cae13a7beec974b8/b19f7/306002.webp"
+    },
+    {
+        character:"Bunny Bunny",
+        afflatus:"Beast",
+        damage:"Reality",
+        rarity:"four",
+        number:"4",
         spell1:"",
         spell1d:"",
         spell1i:"",
@@ -176,26 +231,26 @@ const array = [
         ult:"",
         ultd:"",
         ulti:"",
-        portrait:"",
-        splash:""
+        portrait:"https://www.prydwen.gg/static/67c433543a1f829dbbdca9732e4a6ffa/60b4d/14_icon.webp",
+        splash:"https://www.prydwen.gg/static/a42e100729f522c57e53f951a49bc4a2/2065f/301402.webp"
     },
     {
-        character:"",
-        afflatus:"",
-        damage:"",
-        rarity:"",
-        number:"",
-        spell1:"",
-        spell1d:"",
-        spell1i:"",
-        spell2:"",
-        spell2d:"",
-        spell2i:"",
-        ult:"",
-        ultd:"",
-        ulti:"",
-        portrait:"",
-        splash:""
+        character:"Centurion",
+        afflatus:"Beast",
+        damage:"Reality",
+        rarity:"six",
+        number:"6",
+        spell1:"Victorious General",
+        spell1d:"1-target attack. Deals 180/270/450% Reality DMG plus (the caster's Moxie x8/12/20%) Reality DMG.",
+        spell1i:"https://www.prydwen.gg/static/59ed29f293826b5ac4f3bd5d9ab55a95/f0036/cent2.webp",
+        spell2:"Outdoor Superstar",
+        spell2d:"Mass attack. Deals 150/150/225% Reality DMG to 2 enemies. Moxie +0/1/2 to self.",
+        spell2i:"https://www.prydwen.gg/static/b89962ba8c18a0a972f6bd4aae9c4e17/f0036/cent3.webp",
+        ult:"Reality Show Premier",
+        ultd:"Mass attack. Deals 300% Reality DMG and inflicts 1 stack of [Weakness] on all enemies.",
+        ulti:"https://www.prydwen.gg/static/c468a40993bffe52024fea2f979042a6/9b438/cent1.webp",
+        portrait:"https://www.prydwen.gg/static/191228ad7e866fba991582aaafdce40b/60b4d/5_icon.webp",
+        splash:"https://www.prydwen.gg/static/031d88215892eec25e910ee9caa16d94/16268/303202.webp"
     },
     {
         character:"Melania",
@@ -213,7 +268,7 @@ const array = [
         ultd:"1-target attack. Deals 650% Mental DMG. Inflicts 1 stack of [Thief Master] on the caster.",
         ulti:"https://www.prydwen.gg/static/5fc248fb1f3053b4353661fd5fa5af64/9b438/30620131.webp",
         portrait:"https://www.prydwen.gg/static/4abbfd75d20606a1f0b2f2eb6ada77a2/60b4d/53_icon.webp",
-        splash:"https://www.prydwen.gg/static/750d65af9aac71938bcd80f768aa1541/3cd29/53_full.webp"
+        splash:"https://www.prydwen.gg/static/599508164a638a53a2057b84a4ec0aed/b19f7/306202.webp"
     },
     {
         character:"",

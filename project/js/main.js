@@ -81,16 +81,47 @@ function nofilter(button){
             <div class='${i.rarity}'>
                 <div class='${i.afflatus}'>
                     <div class='header'>
-                    <img class='type' src='../imgs/${i.afflatus}.webp'>
-                    <h2 class='right'>${i.character}</h2>
+                        <img class='type' src='../imgs/${i.afflatus}.webp'>
+                        <h2 class='right'>${i.character}</h2>
                     </div>
                     <img class='splash' src='${i.splash}'>
-                    <div class='footer'>
-                        
+                    <div id='inline'>
+                        <img class='portrait' src='${i.portrait}'>
+                        <div id='attributes'>
+                            <div id='nest'>
+                                <h3>Rarity: ${i.number}✦</h3>
+                                <h3>Afflatus: ${i.afflatus}</h3>
+                                <h3>Damage Type: ${i.damage}</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='spells'>
+                        <div class='smallerspells'>
+                            <div id='spell1'>
+                                <img id='art' src='${i.spell1i}'>
+                                    <div id='title'>
+                                        <h3>${i.spell1}</h3>
+                                    </div>
+                                </div>
+                                <div id='spell2'>
+                                    <img id='art' src='${i.spell2i}'>
+                                    <div id='title'>
+                                        <h3>${i.spell2}</h3>
+                                    </div>
+                                </div>
+                                <div id='ult'>
+                                    <img id='art' src='${i.ulti}'>
+                                    <div id='title'>
+                                        <h3>${i.ult}</h3>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id='desc1'>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
-            `)
+                `)
         DOMSelectors.box.innerHTML=inner
     });
 };
