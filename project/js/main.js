@@ -7,7 +7,6 @@ document.querySelector('#app').innerHTML=`
 <button id='beast'>Beast</button>
 
 <div class='flexbox'>
-
 </div>
 `
 
@@ -46,22 +45,24 @@ function filter(sort,button){
                         <div class='smallerspells'>
                             <div id='spell1'>
                                 <img id='art' src='${i.spell1i}'>
-                                <div id='desc'>
+                                <div id='title'>
                                     <h3>${i.spell1}</h3>
                                 </div>
                             </div>
                             <div id='spell2'>
                                 <img id='art' src='${i.spell2i}'>
-                                <div id='desc'>
+                                <div id='title'>
                                     <h3>${i.spell2}</h3>
                                 </div>
                             </div>
                             <div id='ult'>
-                                <img id='uart' src='${i.ulti}'>
-                                <div id='desc'>
+                                <img id='art' src='${i.ulti}'>
+                                <div id='title'>
                                     <h3>${i.ult}</h3>
                                 </div>
                             </div>
+                        </div>
+                        <div id='desc1'>
                         </div>
                     </div>
                 </div>

@@ -96,6 +96,8 @@ body{
   .spells{
     height: 53%;
     position: relative;
+    width: 100%;
+    display: flex;
   }
 
   #spell1{
@@ -104,6 +106,7 @@ body{
     display: flex;
     opacity: 0;
     transform: translateY(100px);
+    font-family: inherit;
     transition: 
       opacity 0.75s 0.25s,
       transform 0.75s 0.15s;
@@ -139,7 +142,7 @@ body{
     justify-content: space-between;
   }
 
-  #desc{
+  #title{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -151,9 +154,6 @@ body{
     height: 100%;
   }
 
-  #uart{
-    height: 100%;
-  }
 
 
   &:hover{
@@ -187,6 +187,7 @@ body{
       transform: translateY(0px);
       opacity: 1;
     }
+
   }
 }
 
@@ -200,7 +201,7 @@ body{
   display: flex;
   justify-content: center;
   align-items:start;
-  overflow: hidden;
+
   position: relative;
   transition: all 0.9s;
 
@@ -212,7 +213,7 @@ body{
 }
 
 div{
-  border: 0px solid black;
+  border: 1px solid black;
 }
 
 .right{
@@ -222,4 +223,16 @@ div{
 .type{
   height: 10%;
   position:absolute;
+}
+
+#desc1{
+  width: 55%;
+}
+
+#desc1 #target{
+  display: none;
+}
+
+#desc1 #trigger:hover + #target{
+  display: block;
 }
