@@ -1184,11 +1184,3 @@ div{
 #desc1{
   width: 55%;
 }
-
-#desc1 #target{
-  display: none;
-}
-
-#desc1 #trigger:hover + #target{
-  display: block;
-}

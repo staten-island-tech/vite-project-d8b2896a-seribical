@@ -5,7 +5,11 @@ document.querySelector('#app').innerHTML=`
 <p>g</p>
 <button id='button'>haha</button>
 <button id='beast'>Beast</button>
-
+<button id='star'>Star</button>
+<button id='spirit'>Spirit</button>
+<button id='intellect'>Intellect</button>
+<button id='plant'>Plant</button>
+<button id='mineral'>Mineral</button>
 <div class='flexbox'>
 </div>
 `
@@ -14,7 +18,11 @@ const DOMSelectors={
     box: document.querySelector('.flexbox'),
     button: document.querySelector('#button'),
     beast: document.querySelector('#beast'),
+    star:document.querySelector('#star'),
     spirit:document.querySelector('#spirit'),
+    intellect:document.querySelector('#intellect'),
+    plant:document.querySelector('#plant'),
+    mineral:document.querySelector('#mineral'),
 
 };
 
@@ -128,6 +136,12 @@ function nofilter(button){
 
 nofilter(DOMSelectors.button);
 filter("Beast",DOMSelectors.beast);
+filter("Star",DOMSelectors.star);
+filter("Mineral",DOMSelectors.mineral);
+filter("Plant",DOMSelectors.plant);
+filter("Spirit",DOMSelectors.spirit);
+filter("Intellect",DOMSelectors.intellect);
+
 
 
 
