@@ -1,8 +1,6 @@
 :root{
     font-family: Yatra One;
-}
 
-.light{
     --star: #74bef0;
     --beast: #d46262;
     --mineral: #b97f64d7;
@@ -15,29 +13,33 @@
     --three: #3a87ec;
     --two: #48d15a;
     --seven: #ff2929;
+}
 
+.Light{
     --primary: #bdbdbd;
     --secondary: #ececec;
     --tertiary: #adadad;
     --text: #000000;
 }
 
-.dark{
-    --star: #5e9dc7;
-    --beast: #b65555;
-    --mineral: #8f634fd7;
-    --plant: #5cb873;
-    --spirit: #9e50a5;
-    --intellect:#caad5e;
-    --six: #b97b29;
-    --five: #c4ad2b;
-    --four: #8f2db6;
-    --three: #316fc0;
-    --two: #36a344;
-    --seven: #c71f1f;
-
+.Dark{
     --primary: #414141;
     --secondary: #616161;
     --tertiary: #747373;
     --text: #ffffff;
 }
+
+.Blue{
+    --primary: #b42d2d;
+    --secondary: #616161;
+    --tertiary: #747373;
+    --text: #ffffff;
+}
+
+.Red{
+    --primary: #414141;
+    --secondary: #616161;
+    --tertiary: #747373;
+    --text: #ffffff;
+}
+

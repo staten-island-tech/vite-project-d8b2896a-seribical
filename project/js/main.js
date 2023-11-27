@@ -16,6 +16,7 @@ document.querySelector('#app').innerHTML=`
     <div id='div2'>
         <button class='button2' id='dark'>Dark</button>
         <button class='button2' id='light'>Light</Button>
+        <button class='button2' id='blue'>Blue</Button>
     </div>
 </div>
 <div class='flexbox'>
@@ -35,17 +36,17 @@ const DOMSelectors={
     light:document.querySelector('#light'),
     body:document.body,
     buttons: document.querySelectorAll(".button"),
+    buttons2: document.querySelectorAll(".button2")
 };
 
-
-
-DOMSelectors.light.addEventListener('click', function(){
-    DOMSelectors.body.classList.replace('dark','light');
-})
-
-DOMSelectors.dark.addEventListener('click', function(){
-    DOMSelectors.body.classList.replace('light','dark');
-})
+function theme(){
+    let buttons = DOMSelectors.buttons2
+    buttons.forEach((i)=>i.addEventListener("click", function(){
+        let past = DOMSelectors.body.classList
+        let current= i.textContent
+        DOMSelectors.body.classList.replace(past,current);
+    }))
+}
 
 function insert(arr){
     arr.forEach((i)=>DOMSelectors.box.insertAdjacentHTML(
@@ -99,15 +100,21 @@ function insert(arr){
         let buttons = DOMSelectors.buttons
         buttons.forEach((i)=>i.addEventListener("click", function(){
             let afflatus = i.textContent
-            console.log(afflatus)
-            let filter = array.filter((j)=>j.afflatus===afflatus)
             document.querySelector(".flexbox").innerHTML = ""
-            insert(filter)
+            if (afflatus === "All") {
+                insert(array)
+            }
+            else{
+                let filter = array.filter((j)=>j.afflatus===afflatus)
+                insert(filter)
+            }
+            
         }))
     }
 
 insert(array)
 filter()
+theme()
 
 /* function filter(sort,button){
     button.addEventListener('click', function(event){

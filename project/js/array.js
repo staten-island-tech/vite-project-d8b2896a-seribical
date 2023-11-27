@@ -288,7 +288,7 @@ const array = [
         portrait:"../imgs/whalenportrait.png",
         splash:"../imgs/flattering.png"
     },
-]
+].reverse()
 
 export{array}
 
