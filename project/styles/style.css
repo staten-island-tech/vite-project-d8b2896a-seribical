@@ -973,7 +973,7 @@ body{
 
   #inline{
     display: flex;
-    height: 30%;
+    height: 161px;
   }
   
   #attributes{
@@ -1234,3 +1234,5 @@ div{
   width: 26%;
   height: 485px;
 }
+
+
