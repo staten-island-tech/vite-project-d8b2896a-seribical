@@ -1,15 +1,23 @@
 import '../styles/style.css'
 import {array} from './array'
 
+
 document.querySelector('#app').innerHTML=`
-<p>g</p>
-<button id='button'>haha</button>
-<button id='beast'>Beast</button>
-<button id='star'>Star</button>
-<button id='spirit'>Spirit</button>
-<button id='intellect'>Intellect</button>
-<button id='plant'>Plant</button>
-<button id='mineral'>Mineral</button>
+<div class='navbar'>
+    <div id='div'>
+        <button id='button'>All</button>
+        <button id='beast'>Beast</button>
+        <button id='star'>Star</button>
+        <button id='spirit'>Spirit</button>
+        <button id='intellect'>Intellect</button>
+        <button id='plant'>Plant</button>
+        <button id='mineral'>Mineral</button>
+    </div>
+    <div id='div2'>
+        <button id='dark'>Dark</button>
+        <button id='light'>Light</Button>
+    </div>
+</div>
 <div class='flexbox'>
 </div>
 `
@@ -23,8 +31,20 @@ const DOMSelectors={
     intellect:document.querySelector('#intellect'),
     plant:document.querySelector('#plant'),
     mineral:document.querySelector('#mineral'),
-
+    dark:document.querySelector('#dark'),
+    light:document.querySelector('#light'),
+    body:document.body,
 };
+
+
+
+DOMSelectors.light.addEventListener('click', function(){
+    DOMSelectors.body.classList.replace('dark','light');
+})
+
+DOMSelectors.dark.addEventListener('click', function(){
+    DOMSelectors.body.classList.replace('light','dark');
+})
 
 function filter(sort,button){
     button.addEventListener('click', function(event){
@@ -133,6 +153,8 @@ function nofilter(button){
         DOMSelectors.box.innerHTML=inner
     });
 };
+
+
 
 nofilter(DOMSelectors.button);
 filter("Beast",DOMSelectors.beast);

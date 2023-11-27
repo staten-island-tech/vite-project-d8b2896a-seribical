@@ -271,22 +271,22 @@ const array = [
         splash:"https://www.prydwen.gg/static/599508164a638a53a2057b84a4ec0aed/b19f7/306202.webp"
     },
     {
-        character:"",
-        afflatus:"",
-        damage:"",
-        rarity:"",
-        number:"",
-        spell1:"",
-        spell1d:"",
-        spell1i:"",
-        spell2:"",
+        character:"Mister Michael Whalen",
+        afflatus:"Intellect",
+        damage:"Mental",
+        rarity:"seven",
+        number:"7",
+        spell1:"HOS Deduction",
+        spell1d:"-100 HOS Responsibility Points",
+        spell1i:"../imgs/HOS.png",
+        spell2:"Criticism",
         spell2d:"",
         spell2i:"",
-        ult:"",
+        ult:"why are you bad at coding ethan",
         ultd:"",
         ulti:"",
-        portrait:"",
-        splash:""
+        portrait:"../imgs/whalenportrait.png",
+        splash:"../imgs/whalenportrait.png"
     },
 ]
 

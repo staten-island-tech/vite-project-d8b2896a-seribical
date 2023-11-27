@@ -1,7 +1,47 @@
 @import url(variables.css);
 
 body{
+  background-color: var(--secondary);
+  margin: 0px;
+  padding: 0px;
+  transition: 
+    background-color 1000ms;
+}
+
+.navbar{
+  height: 50px;
   background-color: var(--primary);
+  display: flex;
+  transition: 
+    background-color 1000ms;
+}
+
+#div{
+  width: 50%;
+  height: 100%;
+}
+
+#div2{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+}
+
+#button, #beast, #plant, #star, #intellect, #spirit, #mineral, #light, #dark{
+  background-color: var(--primary);
+  width: 110px;
+  height: 100%;
+  font-size: 1.75rem;
+  border: none;
+  color: var(--text);
+  transition: 
+    background-color 1000ms;
+}
+
+#button:hover, #beast:hover, #plant:hover, #mineral:hover, #intellect:hover, #star:hover, #spirit:hover, #light:hover, #dark:hover{
+  background-color: var(--tertiary);
 }
 
 .flexbox{
@@ -10,17 +50,6 @@ body{
   align-items: center;
   justify-content: space-evenly;
   flex-wrap: wrap;
-}
-
-#beast{
-  background-color: var(--beast);
-  width: 100px;
-  height: 30px;
-  transition: all 1.25s;
-}
-
-#beast:hover{
-  transform: translateY(-10px); 
 }
 
 .Beast{
@@ -932,7 +961,7 @@ body{
 
   .portrait{
     transform: translateX(0px);
-    height: 35%;
+    height: 100%;
     border-radius: 10px;
     opacity: 0;
     transform: translateX(-200px);
@@ -944,6 +973,7 @@ body{
 
   #inline{
     display: flex;
+    height: 30%;
   }
   
   #attributes{
@@ -1179,8 +1209,28 @@ div{
   margin-right: 12%;
 }
 
-
-
 #desc1{
   width: 55%;
+}
+
+.seven{
+  background-color: var(--seven);
+  width: 13%;
+  height: 450px;
+  margin-left: 30px;
+  margin-right: 30px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items:start;
+  overflow: hidden;
+  margin: 40px;
+  position: relative;
+  transition: all 0.9s;
+
+}
+
+.seven:hover{
+  width: 26%;
+  height: 485px;
 }
