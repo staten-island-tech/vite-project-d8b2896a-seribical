@@ -286,7 +286,7 @@ const array = [
         ultd:"",
         ulti:"../imgs/ethanisbad.jpg",
         portrait:"../imgs/whalenportrait.png",
-        splash:"../imgs/whalenportrait.png"
+        splash:"../imgs/flattering.png"
     },
 ]
 
