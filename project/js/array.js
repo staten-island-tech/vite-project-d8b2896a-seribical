@@ -284,7 +284,7 @@ const array = [
         spell2i:"",
         ult:"why are you bad at coding ethan",
         ultd:"",
-        ulti:"",
+        ulti:"../imgs/ethanisbad.jpg",
         portrait:"../imgs/whalenportrait.png",
         splash:"../imgs/whalenportrait.png"
     },
