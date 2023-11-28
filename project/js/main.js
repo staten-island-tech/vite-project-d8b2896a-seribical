@@ -44,7 +44,12 @@ function theme(){
     buttons.forEach((i)=>i.addEventListener("click", function(){
         let past = DOMSelectors.body.classList
         let current= i.textContent
-        DOMSelectors.body.classList.replace(past,current);
+        if (past===current){
+
+        }
+        else{
+            DOMSelectors.body.classList.replace(past,current);
+        }
     }))
 }
 
@@ -115,6 +120,7 @@ function insert(arr){
 insert(array)
 filter()
 theme()
+
 
 /* function filter(sort,button){
     button.addEventListener('click', function(event){
