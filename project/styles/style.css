@@ -188,8 +188,6 @@ body{
     height: 100%;
   }
 
-
-
   &:hover{
     background-color: var(--beast);;
 
@@ -1203,6 +1201,11 @@ body{
 
 div{
   border: 0px solid black;
+}
+
+#desc1{
+  width: 50%;
+  height: 100%;
 }
 
 .right{

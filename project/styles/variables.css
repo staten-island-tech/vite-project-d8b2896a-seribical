@@ -30,16 +30,16 @@
 }
 
 .Blue{
-    --primary: #b42d2d;
-    --secondary: #616161;
-    --tertiary: #747373;
+    --primary: #183e92;
+    --secondary: #2a4d9b;
+    --tertiary: #51ace0;
     --text: #ffffff;
 }
 
 .Red{
-    --primary: #414141;
-    --secondary: #616161;
-    --tertiary: #747373;
+    --primary: #b91d1d;
+    --secondary: #c54343;
+    --tertiary: #c26464;
     --text: #ffffff;
 }
 
