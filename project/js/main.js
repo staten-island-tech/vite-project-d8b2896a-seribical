@@ -1,7 +1,6 @@
 import '../styles/style.css'
 import {array} from './array'
 
-
 document.querySelector('#app').innerHTML=`
 <div class='navbar'>
     <div id='div'>
@@ -44,12 +43,7 @@ function theme(){
     buttons.forEach((i)=>i.addEventListener("click", function(){
         let past = DOMSelectors.body.classList
         let current= i.textContent
-        if (past===current){
-
-        }
-        else{
             DOMSelectors.body.classList.replace(past,current);
-        }
     }))
 }
 
