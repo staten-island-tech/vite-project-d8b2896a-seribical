@@ -100,7 +100,7 @@ function insert(arr){
         let buttons = DOMSelectors.buttons
         buttons.forEach((i)=>i.addEventListener("click", function(){
             let afflatus = i.textContent
-            document.querySelector(".flexbox").innerHTML = ""
+            DOMSelectors.box.innerHTML = ""
             if (afflatus === "All") {
                 insert(array)
             }
