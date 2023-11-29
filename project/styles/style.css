@@ -1109,6 +1109,7 @@ body{
 .six:hover{
   width: 26%;
   height: 485px;
+  box-shadow: 7px 7px 20px var(--primary);
 }
 
 .five{
@@ -1131,6 +1132,7 @@ body{
 .five:hover{
   width: 26%;
   height: 485px;
+  box-shadow: 7px 7px 20px var(--primary);
 }
 
 .four{
@@ -1153,6 +1155,7 @@ body{
 .four:hover{
   width: 26%;
   height: 485px;
+  box-shadow: 7px 7px 20px var(--primary);
 }
 
 .three{
@@ -1175,6 +1178,7 @@ body{
 .three:hover{
   width: 26%;
   height: 485px;
+  box-shadow: 7px 7px 20px var(--primary);
 }
 
 .two{
@@ -1197,6 +1201,7 @@ body{
 .two:hover{
   width: 26%;
   height: 485px;
+  box-shadow: 7px 7px 20px var(--primary);
 }
 
 div{
@@ -1236,6 +1241,7 @@ div{
 .seven:hover{
   width: 26%;
   height: 485px;
+  box-shadow: 7px 7px 20px var(--primary);
 }
 
 
