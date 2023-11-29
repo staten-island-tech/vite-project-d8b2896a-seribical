@@ -9,9 +9,9 @@ function theme(){
     buttons.forEach((i)=>i.addEventListener("click", function(){
         let past = DOMSelectors.body.classList
         let current= i.textContent
-            DOMSelectors.body.classList.replace(past,current);
+        DOMSelectors.body.classList.replace(past,current);   
     }))
-}
+} 
 
 function insert(arr){
     arr.forEach((i)=>DOMSelectors.box.insertAdjacentHTML(
